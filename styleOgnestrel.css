@@ -1,0 +1,25 @@
+.qaz {
+    border: 1px solid black;
+    width: 1710px;
+    height: 3600px;
+    display: flex;
+}
+.tovar {
+    position: relative;
+    width: 425px;
+    height: 450px;
+}
+.knopka {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 205px;
+    height: 55px;
+    background-color: green;
+    font-size: 45px;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    left: 80px;
+    top: 300px;
+}

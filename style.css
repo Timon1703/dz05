@@ -1,0 +1,74 @@
+* {
+   margin: 0;
+}
+body {
+    background-color: #f1e9d2;
+}
+header {
+    background-image: url(./img/header.png);
+    height: 901px;
+    width: 1650px;
+}
+.header {
+    position: relative;
+    display: flex;
+    font-size: 300px;
+    color: rgb(60, 237, 12);
+    top: 330px;
+    left: 350px;
+}
+.prodykt {
+    display: flex;
+    height: 900px;
+    width: 1650px;
+    flex-wrap: wrap;
+}
+.prodykt1 {
+    display: flex;
+    height: 900px;
+    width: 1650px;
+    flex-wrap: wrap;
+}
+.img {
+    width: 825px;
+    height: 900px;
+    object-fit: cover; 
+}
+.row {
+    flex-direction: column;
+}
+.paket {
+    font-size: 30px;
+    text-align: center;
+    opacity: 0.8;
+}
+.footerObshiy {
+    position: relative;
+    width: 1650px;
+    height: 350px;
+} 
+.infa {
+    position: absolute;
+    height: 150px;
+    width: 1000px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    left: 150px;
+}
+.inf {
+    font-size: 45px;
+    color: black;
+    align-items: center;
+}
+.znak { 
+    top: 350px;
+    position: absolute;
+    height: 220px;
+    width: 5550px;
+    flex-direction: row;
+    display: flex;
+}
+.ahref {
+    justify-content: space-around;
+}

@@ -55,14 +55,15 @@ header {
     display: flex;
     flex-wrap: wrap;
     left: 150px;
+    margin: 10px;
 }
 .inf {
     font-size: 45px;
     color: black;
-    align-items: center;
+    padding: 10px;
 }
 .znak { 
-    top: 350px;
+    top: 600px;
     position: absolute;
     height: 220px;
     width: 5550px;
@@ -71,4 +72,12 @@ header {
 }
 .ahref {
     justify-content: space-around;
+}
+.podpis {
+    top: 485px;
+    position: absolute;
+
+}
+h3 {
+    padding: 10px;
 }

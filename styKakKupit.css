@@ -1,0 +1,12 @@
+.text {
+    position: relative;
+    left: 20px;
+    top: 100px;
+    width: 1650px;
+}
+.perv {
+    font-size: 45px;
+}
+body {
+    background-color: rgb(241, 237, 210);
+}
